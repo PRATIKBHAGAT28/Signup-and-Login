@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "baseUrl": "src",
+    "outDir": "lib",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "useUnknownInCatchVariables": false,
+    "skipLibCheck": true
+
+  },
+  "compileOnSave": true,
+  "include": [
+    "src"
+  ],
+  "ts-node": {
+    "swc": true,
+     "transpileOnly": true
+  }
+}
