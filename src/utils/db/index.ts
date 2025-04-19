@@ -1,7 +1,4 @@
 import mongoose from "mongoose"
-
-
-
 let db: mongoose.Connection
 
 const connect = ({ connectionUrl }) => {
